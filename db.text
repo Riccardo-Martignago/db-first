@@ -1,0 +1,14 @@
+id                  AUTO_INCREMENT   NOT_NULL
+marca               VARCHAR(25)      NOT_NULL
+modello             VARCHAR(25)      NOT_NULL
+immatricolazione    DATE             NOT_NULL
+codice_targa        VARCHAR(7)       NOT_NULL    UNIQUE
+codice_telaio       INT              NOT_NULL    UNIQUE
+km_percorsi         INT              NOT_NULL
+codice_colore       VARCHAR(25)      NOT_NULL
+numero_posti        INT              NOT_NULL
+numero_portiere     INT              NOT_NULL
+tipo_carburante     VARCHAR(20)      NOT_NULL
+cambio_automatico   BOOLEAN          NOT_NULL
+cilindrata          SMALLINT         NOT_NULL
+descrizione         TEXT             NOT_NULL
